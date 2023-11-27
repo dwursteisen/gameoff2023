@@ -1,0 +1,60 @@
+{
+	"identifier": "Level_4",
+	"uniqueIdentifer": "a9f77c70-8990-11ee-b8be-87988fc35670",
+	"x": -1,
+	"y": -1,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles2.png",
+		"Tiles.png",
+		"AutoLayer.png",
+		"IntGrid.png"
+	],
+	"entities": {
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "bf7e0b90-8990-11ee-b8be-27fc07ea2f33",
+				"layer": "Entities",
+				"x": 192,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 6539085,
+				"customFields" : {}
+			}
+		],
+		"Spawn": [
+			{
+				"id": "Spawn",
+				"iid": "c1177040-8990-11ee-b8be-bba167269247",
+				"layer": "Entities",
+				"x": 40,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 39387,
+				"customFields": {
+					"small": false
+				}
+			}
+		],
+		"Key": [
+			{
+				"id": "Key",
+				"iid": "ccc8e860-8990-11ee-b8be-4b680d4aa478",
+				"layer": "Entities",
+				"x": 120,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16705377,
+				"customFields" : {}
+			}
+		]
+	}
+}

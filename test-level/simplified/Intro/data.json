@@ -1,0 +1,60 @@
+{
+	"identifier": "Intro",
+	"uniqueIdentifer": "99ed4b70-6280-11ee-a9cd-a77ec85c97ab",
+	"x": -1,
+	"y": -1,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles2.png",
+		"Tiles.png",
+		"AutoLayer.png",
+		"IntGrid.png"
+	],
+	"entities": {
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "f2a479f0-6280-11ee-a9cd-61df22730929",
+				"layer": "Entities",
+				"x": 208,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 6539085,
+				"customFields" : {}
+			}
+		],
+		"Key": [
+			{
+				"id": "Key",
+				"iid": "f449c580-6280-11ee-a9cd-ff09e0a7f7b0",
+				"layer": "Entities",
+				"x": 120,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16705377,
+				"customFields" : {}
+			}
+		],
+		"Spawn": [
+			{
+				"id": "Spawn",
+				"iid": "f91e7f10-6280-11ee-a9cd-1500e28aa8d2",
+				"layer": "Entities",
+				"x": 32,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 39387,
+				"customFields": {
+					"small": false
+				}
+			}
+		]
+	}
+}

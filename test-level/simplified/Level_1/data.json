@@ -1,0 +1,122 @@
+{
+	"identifier": "Level_1",
+	"uniqueIdentifer": "412b6000-6280-11ee-ab72-2346e85d3d73",
+	"x": -1,
+	"y": -1,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles2.png",
+		"Tiles.png",
+		"AutoLayer.png",
+		"IntGrid.png"
+	],
+	"entities": {
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "02e2e5b0-6280-11ee-ab72-67272603361d",
+				"layer": "Entities",
+				"x": 220,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 6539085,
+				"customFields" : {}
+			}
+		],
+		"Key": [
+			{
+				"id": "Key",
+				"iid": "0b553860-6280-11ee-ab72-177dc347d499",
+				"layer": "Entities",
+				"x": 204,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16705377,
+				"customFields" : {}
+			}
+		],
+		"Spawn": [
+			{
+				"id": "Spawn",
+				"iid": "25af59b0-8990-11ee-b8be-df21aed28459",
+				"layer": "Entities",
+				"x": 32,
+				"y": 208,
+				"width": 16,
+				"height": 16,
+				"color": 39387,
+				"customFields": {
+					"small": false
+				}
+			}
+		],
+		"SmallDoor": [
+			{
+				"id": "SmallDoor",
+				"iid": "399c0ef0-8990-11ee-b8be-1b330e9288b4",
+				"layer": "Entities",
+				"x": 80,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields": {
+					"target": {
+						"entityIid": "3a5db140-8990-11ee-b8be-27d34ed4448f",
+						"layerIid": "e309d231-6280-11ee-ab72-8ba564c0d7fd",
+						"levelIid": "412b6000-6280-11ee-ab72-2346e85d3d73",
+						"worldIid": "637d4811-6280-11ee-ab72-bdf8243bf06a"
+					}
+				}
+			},
+			{
+				"id": "SmallDoor",
+				"iid": "3a5db140-8990-11ee-b8be-27d34ed4448f",
+				"layer": "Entities",
+				"x": 160,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields": {
+					"target": {
+						"entityIid": "399c0ef0-8990-11ee-b8be-1b330e9288b4",
+						"layerIid": "e309d231-6280-11ee-ab72-8ba564c0d7fd",
+						"levelIid": "412b6000-6280-11ee-ab72-2346e85d3d73",
+						"worldIid": "637d4811-6280-11ee-ab72-bdf8243bf06a"
+					}
+				}
+			}
+		],
+		"Pill": [
+			{
+				"id": "Pill",
+				"iid": "4b33fec0-8990-11ee-b8be-81a9cd1eae45",
+				"layer": "Entities",
+				"x": 56,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields" : {}
+			},
+			{
+				"id": "Pill",
+				"iid": "d34350c0-8990-11ee-b8be-1368d784073f",
+				"layer": "Entities",
+				"x": 184,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields" : {}
+			}
+		]
+	}
+}

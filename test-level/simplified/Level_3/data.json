@@ -1,0 +1,122 @@
+{
+	"identifier": "Level_3",
+	"uniqueIdentifer": "637d6f20-6280-11ee-ab72-5915e766cae7",
+	"x": -1,
+	"y": -1,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles2.png",
+		"Tiles.png",
+		"AutoLayer.png",
+		"IntGrid.png"
+	],
+	"entities": {
+		"Pill": [
+			{
+				"id": "Pill",
+				"iid": "23edee70-6280-11ee-a97a-993c8327290f",
+				"layer": "Entities",
+				"x": 88,
+				"y": 192,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields" : {}
+			},
+			{
+				"id": "Pill",
+				"iid": "24af42a0-6280-11ee-a97a-b92accfd7e32",
+				"layer": "Entities",
+				"x": 168,
+				"y": 128,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields" : {}
+			}
+		],
+		"Key": [
+			{
+				"id": "Key",
+				"iid": "265d67d0-6280-11ee-a97a-59d14a35a4fd",
+				"layer": "Entities",
+				"x": 24,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16705377,
+				"customFields" : {}
+			}
+		],
+		"Door": [
+			{
+				"id": "Door",
+				"iid": "ee2722c0-6280-11ee-a97a-f78d5e0768c4",
+				"layer": "Entities",
+				"x": 224,
+				"y": 192,
+				"width": 16,
+				"height": 16,
+				"color": 6539085,
+				"customFields" : {}
+			}
+		],
+		"Spawn": [
+			{
+				"id": "Spawn",
+				"iid": "45320bf0-6280-11ee-a6f4-c5b6719153bf",
+				"layer": "Entities",
+				"x": 40,
+				"y": 192,
+				"width": 16,
+				"height": 16,
+				"color": 39387,
+				"customFields": {
+					"small": true
+				}
+			}
+		],
+		"SmallDoor": [
+			{
+				"id": "SmallDoor",
+				"iid": "26dfe320-8990-11ee-b88b-275c0d199868",
+				"layer": "Entities",
+				"x": 140,
+				"y": 224,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields": {
+					"target": {
+						"entityIid": "27e98af0-8990-11ee-b88b-c51f30639885",
+						"layerIid": "e309d230-6280-11ee-ab72-579f35c39410",
+						"levelIid": "637d6f20-6280-11ee-ab72-5915e766cae7",
+						"worldIid": "637d4811-6280-11ee-ab72-bdf8243bf06a"
+					}
+				}
+			},
+			{
+				"id": "SmallDoor",
+				"iid": "27e98af0-8990-11ee-b88b-c51f30639885",
+				"layer": "Entities",
+				"x": 204,
+				"y": 128,
+				"width": 16,
+				"height": 16,
+				"color": 16711748,
+				"customFields": {
+					"target": {
+						"entityIid": "26dfe320-8990-11ee-b88b-275c0d199868",
+						"layerIid": "e309d230-6280-11ee-ab72-579f35c39410",
+						"levelIid": "637d6f20-6280-11ee-ab72-5915e766cae7",
+						"worldIid": "637d4811-6280-11ee-ab72-bdf8243bf06a"
+					}
+				}
+			}
+		]
+	}
+}

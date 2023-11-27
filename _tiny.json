@@ -1,0 +1,45 @@
+{
+    "version": "V1",
+    "name": "GameOff 2023",
+    "resolution": {
+        "width": 256,
+        "height": 256
+    },
+    "sprites": {
+        "width": 16,
+        "height": 16
+    },
+    "zoom": 2,
+    "colors": [
+        "#000000",
+        "#1D2B53",
+        "#7E2553",
+        "#008751",
+        "#AB5236",
+        "#5F574F",
+        "#C2C3C7",
+        "#FFF1E8",
+        "#FF004D",
+        "#FFA300",
+        "#FFEC27",
+        "#00E436",
+        "#29ADFF",
+        "#83769C",
+        "#FF77A8",
+        "#FFCCAA"
+    ],
+    "scripts": [
+        "game.lua"
+    ],
+    "spritesheets": [
+        "sprites.png"
+    ],
+
+    "levels": [
+        "test-level/simplified/Intro",
+        "test-level/simplified/Level_1",
+        "test-level/simplified/Level_2",
+        "test-level/simplified/Level_3",
+        "test-level/simplified/Level_4"
+    ]
+}
